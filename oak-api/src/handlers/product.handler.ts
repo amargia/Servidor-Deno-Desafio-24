@@ -3,9 +3,9 @@ import logger from "../middlewares/logger.ts";
 import { Product } from "../types/product.types.ts";
 
 const DB_PRODUCTS: Product[] = [];
-DB_PRODUCTS.push({ uuid: "1", name: "Monitor", description: "Monitor para PC", price: 65000 });
-DB_PRODUCTS.push({ uuid: "2", name: "Teclado", description: "Teclado para PC", price: 25000 });
-DB_PRODUCTS.push({ uuid: "3", name: "Mouse", description: "Mouse para PC", price: 15000 });
+DB_PRODUCTS.push({ uuid: "1", name: "Producto 1", description: "Descripción 1", price: 1000 });
+DB_PRODUCTS.push({ uuid: "2", name: "Producto 2", description: "Descripción 2", price: 2000 });
+DB_PRODUCTS.push({ uuid: "3", name: "Producto 3", description: "Descripción 3", price: 3000 });
 
 
 
